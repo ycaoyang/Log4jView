@@ -115,7 +115,7 @@
 			<key>comment</key>
 			<string>warn jboss</string>
 			<key>match</key>
-			<string>^(.*)(WARN)\s*(\[.*\])\s*(.*)$</string>
+			<string>^(.*)(W|w)(A|a)(R|r)(N|n)(ing)?\s*(\[.*\])\s*(.*)$</string>
 			<key>name</key>
 			<string>string.quoted.log4jview</string>
 		</dict>
