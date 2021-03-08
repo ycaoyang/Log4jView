@@ -115,7 +115,7 @@
 			<key>comment</key>
 			<string>warn jboss</string>
 			<key>match</key>
-			<string>^(.*)(W|w)(A|a)(R|r)(N|n)(ing)?\s*(\[.*\])\s*(.*)$</string>
+			<string>^(.*)(W|w)(A|a)(R|r)(N|n)(ing|ING)?\s*(\[.*\])\s*(.*)$</string>
 			<key>name</key>
 			<string>string.quoted.log4jview</string>
 		</dict>
@@ -146,7 +146,7 @@
 			<key>comment</key>
 			<string>info jboss</string>
 			<key>match</key>
-			<string>^(.*)(INFO)\s*(\[.*\])\s*(.*)$</string>
+			<string>^(.*)(I|i)(N|n)(F|f)(O|o)(rmation|RMATION)?\s*(\[.*\])\s*(.*)$</string>
 			<key>name</key>
 			<string>string.quoted.log4jview</string>
 		</dict>
@@ -177,7 +177,7 @@
 			<key>comment</key>
 			<string>error jboss</string>
 			<key>match</key>
-			<string>^(.*)(ERROR)\s*(\[.*\])\s*(.*)$</string>
+			<string>^(.*)(E|e)(R|r)(R|r)(O|o)(R|r)\s*(\[.*\])\s*(.*)$</string>
 			<key>name</key>
 			<string>string.quoted.log4jview</string>
 		</dict>
@@ -208,7 +208,7 @@
 			<key>comment</key>
 			<string>debug jboss</string>
 			<key>match</key>
-			<string>^(.*)(DEBUG)\s*(\[.*\])\s*(.*)$</string>
+			<string>^(.*)(D|d)(E|e)(B|b)(U|u)(G|g)\s*(\[.*\])\s*(.*)$</string>
 			<key>name</key>
 			<string>string.quoted.log4jview</string>
 		</dict>
@@ -239,7 +239,7 @@
 			<key>comment</key>
 			<string>trace jboss</string>
 			<key>match</key>
-			<string>^(.*)(TRACE)\s*(\[.*\])\s*(.*)$</string>
+			<string>^(.*)(T|t)(R|r)(A|a)(C|c)(E|e)\s*(\[.*\])\s*(.*)$</string>
 			<key>name</key>
 			<string>string.quoted.log4jview</string>
 		</dict>
@@ -270,7 +270,7 @@
 			<key>comment</key>
 			<string>fatal jboss</string>
 			<key>match</key>
-			<string>^(.*)(FATAL)\s*(\[.*\])\s*(.*)$</string>
+			<string>^(.*)(F|f)(A|a)(T|t)(A|a)(L|l)\s*(\[.*\])\s*(.*)$</string>
 			<key>name</key>
 			<string>string.quoted.log4jview</string>
 		</dict>
